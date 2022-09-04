@@ -6,6 +6,8 @@ import {MatTableModule} from "@angular/material/table";
 import { PublisherComponent } from './publisher/publisher.component';
 import {MatIconModule} from "@angular/material/icon";
 import {MatCardModule} from "@angular/material/card";
+import {MatDialogModule} from "@angular/material/dialog";
+import {ReactiveFormsModule} from "@angular/forms";
 
 
 
@@ -19,7 +21,9 @@ import {MatCardModule} from "@angular/material/card";
         PublishersRoutingModule,
         MatTableModule,
         MatIconModule,
-        MatCardModule
+        MatCardModule,
+        MatDialogModule
+
     ]
 })
 export class PublishersModule { }
